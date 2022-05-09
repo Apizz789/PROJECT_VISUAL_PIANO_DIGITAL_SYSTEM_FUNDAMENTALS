@@ -1,0 +1,138 @@
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 
+vhdtdtfi -lib work Demo.vhd -prj Speaker -o Demo.spl -module Demo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Demo.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/Demo.sym 

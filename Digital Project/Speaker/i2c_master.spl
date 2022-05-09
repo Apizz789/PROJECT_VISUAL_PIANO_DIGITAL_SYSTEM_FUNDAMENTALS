@@ -1,0 +1,14 @@
+[Inputs]
+clk
+reset_n
+ena
+rw
+=addr[6:0]=
+=data_wr[7:0]=
+[Outputs]
+busy
+ack_error
+=data_rd[7:0]=
+[BiDir]
+sda
+scl

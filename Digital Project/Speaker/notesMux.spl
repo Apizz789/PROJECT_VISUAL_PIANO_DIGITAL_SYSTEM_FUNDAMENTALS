@@ -1,0 +1,5 @@
+[Inputs]
+=Fingers[4:0]=
+[Outputs]
+=Notes[31:0]=
+[BiDir]

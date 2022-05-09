@@ -1,0 +1,7 @@
+[Inputs]
+Clock
+Reset
+button_in
+[Outputs]
+pulse_out
+[BiDir]

@@ -1,0 +1,133 @@
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -prj Speaker -o C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.tfi -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work soundMux.vhd 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 
+vhdtdtfi -lib work soundMux.vhd -prj Speaker -o soundMux.spl -module soundMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 soundMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/soundMux.sym 

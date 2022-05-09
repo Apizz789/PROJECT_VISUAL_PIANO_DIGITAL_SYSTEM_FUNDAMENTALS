@@ -1,0 +1,18 @@
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 
+vhdtdtfi -lib work debouce.vhd -prj Speaker -o DeBounce.spl -module DeBounce -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DeBounce.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/DeBounce.sym 

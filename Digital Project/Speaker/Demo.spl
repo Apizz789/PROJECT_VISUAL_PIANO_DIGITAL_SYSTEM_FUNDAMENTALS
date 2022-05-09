@@ -1,0 +1,8 @@
+[Inputs]
+C
+play
+selection
+[Outputs]
+=notes_out[4:0]=
+=song_index[1:0]=
+[BiDir]

@@ -1,0 +1,60 @@
+NET "OSC" LOC = P123;
+NET "LED1" LOC = P82;
+//NET "LED2" LOC = P81;
+NET "LED7" LOC = P67;
+//NET "LED6" LOC = P74;
+//NET "LED5" LOC = P75;
+//NET "LED4" LOC = P78;
+//NET "LED3" LOC = P79;
+
+//NET "Play" LOC = P46;
+//NET "Rec"  LOC = P45;
+//NET "Stop" LOC = P47;
+
+NET "Freq_out" LOC = P5;
+NET "Tuning"   LOC = P99;
+//NET "Tuning_d" LOC = P46;
+NET "Mute" LOC = P112;
+NET "Selection" Loc = P105;
+NET "Play_demo" Loc = P101;
+
+NET "B[0]" LOC = P9;
+NET "B[1]" LOC = P11;
+NET "B[2]" LOC = P14;
+NET "B[3]" LOC = P16;
+NET "B[4]" LOC = P10;
+NET "B[5]" LOC = P12;
+NET "B[6]" LOC = P15;
+NET "B[7]" LOC = P17;
+
+
+
+NET "n_o[6]" LOC = P114;
+NET "n_o[5]" LOC = P115;
+NET "n_o[4]" LOC = P116;
+NET "n_o[3]" LOC = P117;
+NET "n_o[2]" LOC = P118;
+NET "n_o[1]" LOC = P119;
+NET "n_o[0]" LOC = P120;
+NET "n_o[7]" LOC = P121;
+
+NET "a" LOC = P126;
+NET "b" LOC = P131;
+NET "c" LOC = P133;
+NET "d" LOC = P137;
+NET "e" LOC = P139;
+NET "f" LOC = P141;
+NET "g" LOC = P143;
+
+NET "a1" LOC = P124;
+NET "b1" LOC = P127;
+NET "c1" LOC = P132;
+NET "d1" LOC = P134;
+NET "e1" LOC = P138;
+NET "f1" LOC = P140;
+NET "g1" LOC = P142;
+
+NET "common0" LOC = P44;
+NET "common1" LOC = P43;
+NET "common2" LOC = P33;
+NET "common3" LOC = P30;

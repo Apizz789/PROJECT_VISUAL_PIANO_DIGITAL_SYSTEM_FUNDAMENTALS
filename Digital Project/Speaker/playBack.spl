@@ -1,0 +1,15 @@
+[Inputs]
+C
+CLR
+CE
+Reset
+Rec
+Play
+=Finger[4:0]=
+[Outputs]
+Rec_Led
+Rec_End
+Play_Led
+Play_End
+=Note_Out[4:0]=
+[BiDir]

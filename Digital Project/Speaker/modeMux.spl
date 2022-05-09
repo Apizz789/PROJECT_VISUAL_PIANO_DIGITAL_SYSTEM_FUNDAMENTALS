@@ -1,0 +1,7 @@
+[Inputs]
+Busy
+=A[4:0]=
+=B[7:0]=
+[Outputs]
+=Notes[4:0]=
+[BiDir]

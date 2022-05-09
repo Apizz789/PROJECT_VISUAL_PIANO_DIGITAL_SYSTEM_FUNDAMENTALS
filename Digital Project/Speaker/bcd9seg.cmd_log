@@ -1,0 +1,4 @@
+vhdtdtfi -lib work bcd2_7seg.vhd -prj Speaker -o bcd9seg.spl -module bcd9seg -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bcd9seg.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/bcd9seg.sym 
+vhdtdtfi -lib work bcd2_7seg.vhd -prj Speaker -o bcd9seg.spl -module bcd9seg -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bcd9seg.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/bcd9seg.sym 

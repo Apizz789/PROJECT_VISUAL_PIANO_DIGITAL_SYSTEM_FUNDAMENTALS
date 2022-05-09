@@ -1,0 +1,1019 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "main.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "main"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\USER\Desktop\Digital\Lab\Speaker\main.vf" into library work
+Parsing module <FTC_HXILINX_main>.
+Parsing module <main>.
+Parsing VHDL file "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" into library work
+Parsing entity <soundMux>.
+Parsing architecture <Behavioral> of entity <soundmux>.
+Parsing VHDL file "C:\Users\USER\Desktop\Digital\Lab\Speaker\notesDecode.vhd" into library work
+Parsing entity <notesDecode>.
+Parsing architecture <Behavioral> of entity <notesdecode>.
+Parsing VHDL file "C:\Users\USER\Desktop\Digital\Lab\Speaker\modeMux.vhd" into library work
+Parsing entity <modeMux>.
+Parsing architecture <Behavioral> of entity <modemux>.
+Parsing VHDL file "C:\Users\USER\Desktop\Digital\Lab\Speaker\Demo.vhd" into library work
+Parsing entity <Demo>.
+Parsing architecture <Behavioral> of entity <demo>.
+WARNING:HDLCompiler:1369 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\Demo.vhd" Line 91: Possible infinite loop; process does not have a wait statement
+Parsing VHDL file "C:\Users\USER\Desktop\Digital\Lab\Speaker\debouce.vhd" into library work
+Parsing entity <DeBounce>.
+Parsing architecture <behav> of entity <debounce>.
+Parsing VHDL file "C:\Users\USER\Desktop\Digital\Lab\Speaker\bcd2_7seg.vhd" into library work
+Parsing entity <bcd9seg>.
+Parsing architecture <Behavioral> of entity <bcd9seg>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <main>.
+
+Elaborating module <VCC>.
+
+Elaborating module <GND>.
+Going to vhdl side to elaborate module soundMux
+
+Elaborating entity <soundMux> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 63: tuning should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 67: quadrant should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 68: fingers should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 69: tone should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 70: tone should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 71: tone should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 72: tone should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 76: fingers should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 77: tone should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 78: tone should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 79: tone should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd" Line 80: tone should be on the sensitivity list of the process
+Back to verilog to continue elaboration
+
+Elaborating module <AND2>.
+Going to vhdl side to elaborate module bcd9seg
+
+Elaborating entity <bcd9seg> (architecture <Behavioral>) from library <work>.
+Back to verilog to continue elaboration
+Going to vhdl side to elaborate module Demo
+
+Elaborating entity <Demo> (architecture <Behavioral>) with generics from library <work>.
+Back to verilog to continue elaboration
+Going to vhdl side to elaborate module modeMux
+
+Elaborating entity <modeMux> (architecture <Behavioral>) from library <work>.
+Back to verilog to continue elaboration
+
+Elaborating module <FTC_HXILINX_main>.
+
+Elaborating module <INV>.
+Going to vhdl side to elaborate module bcd9seg
+
+Elaborating entity <bcd9seg> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:758 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\bcd2_7seg.vhd" Line 32: Replacing existing netlist bcd9seg(Behavioral)
+Back to verilog to continue elaboration
+Going to vhdl side to elaborate module notesDecode
+
+Elaborating entity <notesDecode> (architecture <Behavioral>) from library <work>.
+Back to verilog to continue elaboration
+Going to vhdl side to elaborate module DeBounce
+
+Elaborating entity <DeBounce> (architecture <behav>) from library <work>.
+Back to verilog to continue elaboration
+Going to vhdl side to elaborate module DeBounce
+
+Elaborating entity <DeBounce> (architecture <behav>) from library <work>.
+WARNING:HDLCompiler:758 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\debouce.vhd" Line 5: Replacing existing netlist DeBounce(behav)
+Back to verilog to continue elaboration
+Going to vhdl side to elaborate module DeBounce
+
+Elaborating entity <DeBounce> (architecture <behav>) from library <work>.
+WARNING:HDLCompiler:758 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\debouce.vhd" Line 5: Replacing existing netlist DeBounce(behav)
+Back to verilog to continue elaboration
+WARNING:HDLCompiler:552 - "C:\Users\USER\Desktop\Digital\Lab\Speaker\main.vf" Line 160: Input port CLR is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <main>.
+    Related source file is "C:\Users\USER\Desktop\Digital\Lab\Speaker\main.vf".
+    Set property "HU_SET = XLXI_143_0" for instance <XLXI_143>.
+WARNING:Xst:2898 - Port 'CLR', unconnected in block instance 'XLXI_143', is tied to GND.
+    Summary:
+	no macro.
+Unit <main> synthesized.
+
+Synthesizing Unit <soundMux>.
+    Related source file is "C:\Users\USER\Desktop\Digital\Lab\Speaker\soundMux.vhd".
+        nClk = 20000000
+    Found 32-bit register for signal <count>.
+    Found 1-bit register for signal <tmp>.
+    Found 2-bit register for signal <tone>.
+    Found 2-bit adder for signal <tone[1]_GND_7_o_add_0_OUT> created at line 64.
+    Found 5-bit adder for signal <GND_7_o_tone[1]_add_4_OUT> created at line 70.
+    Found 5-bit adder for signal <GND_7_o_tone[1]_add_6_OUT> created at line 71.
+    Found 5-bit adder for signal <GND_7_o_tone[1]_add_8_OUT> created at line 72.
+    Found 5-bit adder for signal <GND_7_o_tone[1]_add_11_OUT> created at line 77.
+    Found 5-bit adder for signal <GND_7_o_tone[1]_add_13_OUT> created at line 78.
+    Found 5-bit adder for signal <GND_7_o_tone[1]_add_15_OUT> created at line 79.
+    Found 5-bit adder for signal <GND_7_o_tone[1]_add_17_OUT> created at line 80.
+    Found 32-bit adder for signal <count[31]_GND_7_o_add_22_OUT> created at line 92.
+    Found 32x18-bit Read Only RAM for signal <GND_7_o_X_7_o_wide_mux_3_OUT>
+    Found 32x18-bit Read Only RAM for signal <GND_7_o_X_7_o_wide_mux_5_OUT>
+    Found 32x18-bit Read Only RAM for signal <GND_7_o_X_7_o_wide_mux_7_OUT>
+    Found 32x18-bit Read Only RAM for signal <GND_7_o_X_7_o_wide_mux_9_OUT>
+    Found 32x18-bit Read Only RAM for signal <GND_7_o_X_7_o_wide_mux_12_OUT>
+    Found 32x18-bit Read Only RAM for signal <GND_7_o_X_7_o_wide_mux_14_OUT>
+    Found 32x18-bit Read Only RAM for signal <GND_7_o_X_7_o_wide_mux_16_OUT>
+    Found 32x18-bit Read Only RAM for signal <GND_7_o_X_7_o_wide_mux_18_OUT>
+    Found 32-bit comparator greater for signal <n0023> created at line 93
+    Summary:
+	inferred   8 RAM(s).
+	inferred   9 Adder/Subtractor(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  24 Multiplexer(s).
+Unit <soundMux> synthesized.
+
+Synthesizing Unit <bcd9seg>.
+    Related source file is "C:\Users\USER\Desktop\Digital\Lab\Speaker\bcd2_7seg.vhd".
+    Summary:
+	no macro.
+Unit <bcd9seg> synthesized.
+
+Synthesizing Unit <Demo>.
+    Related source file is "C:\Users\USER\Desktop\Digital\Lab\Speaker\Demo.vhd".
+        clkDiv = 5000000
+    Found 6-bit register for signal <index>.
+    Found 2-bit register for signal <song_sel>.
+    Found 32-bit register for signal <count>.
+    Found 32-bit adder for signal <count[31]_GND_11_o_add_47_OUT> created at line 97.
+    Found 6-bit adder for signal <index[5]_GND_11_o_add_49_OUT> created at line 100.
+    Found 2-bit adder for signal <song_sel[1]_GND_11_o_add_54_OUT> created at line 105.
+    Found 4x14-bit Read Only RAM for signal <_n0546>
+WARNING:Xst:737 - Found 1-bit latch for signal <tmp<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <tmp<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <tmp<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <tmp<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <tmp<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 32-bit comparator greater for signal <n0038> created at line 98
+    Summary:
+	inferred   1 RAM(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred  40 D-type flip-flop(s).
+	inferred   5 Latch(s).
+	inferred   1 Comparator(s).
+	inferred  33 Multiplexer(s).
+Unit <Demo> synthesized.
+
+Synthesizing Unit <modeMux>.
+    Related source file is "C:\Users\USER\Desktop\Digital\Lab\Speaker\modeMux.vhd".
+    Found 256x5-bit Read Only RAM for signal <GND_17_o_GND_17_o_mux_15_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Multiplexer(s).
+Unit <modeMux> synthesized.
+
+Synthesizing Unit <FTC_HXILINX_main>.
+    Related source file is "C:\Users\USER\Desktop\Digital\Lab\Speaker\main.vf".
+        INIT = 1'b0
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FTC_HXILINX_main> synthesized.
+
+Synthesizing Unit <notesDecode>.
+    Related source file is "C:\Users\USER\Desktop\Digital\Lab\Speaker\notesDecode.vhd".
+    Found 32x8-bit Read Only RAM for signal <notes_out>
+    Summary:
+	inferred   1 RAM(s).
+Unit <notesDecode> synthesized.
+
+Synthesizing Unit <DeBounce>.
+    Related source file is "C:\Users\USER\Desktop\Digital\Lab\Speaker\debouce.vhd".
+    Found 1-bit register for signal <pulse_out>.
+    Found 1-bit register for signal <state>.
+    Found 32-bit register for signal <count>.
+    Found 32-bit adder for signal <count[31]_GND_24_o_add_1_OUT> created at line 49.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <DeBounce> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 11
+ 256x5-bit single-port Read Only RAM                   : 1
+ 32x18-bit single-port Read Only RAM                   : 8
+ 32x8-bit single-port Read Only RAM                    : 1
+ 4x14-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 15
+ 2-bit adder                                           : 2
+ 32-bit adder                                          : 5
+ 5-bit adder                                           : 7
+ 6-bit adder                                           : 1
+# Registers                                            : 16
+ 1-bit register                                        : 8
+ 2-bit register                                        : 2
+ 32-bit register                                       : 5
+ 6-bit register                                        : 1
+# Latches                                              : 5
+ 1-bit latch                                           : 5
+# Comparators                                          : 2
+ 32-bit comparator greater                             : 2
+# Multiplexers                                         : 61
+ 1-bit 2-to-1 multiplexer                              : 36
+ 18-bit 2-to-1 multiplexer                             : 21
+ 3-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 2
+ 5-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <DeBounce>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <DeBounce> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Demo>.
+The following registers are absorbed into counter <index>: 1 register on signal <index>.
+The following registers are absorbed into counter <song_sel>: 1 register on signal <song_sel>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0546> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 14-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <song_sel>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Demo> synthesized (advanced).
+
+Synthesizing (advanced) Unit <modeMux>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_17_o_GND_17_o_mux_15_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 5-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <B>             |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <modeMux> synthesized (advanced).
+
+Synthesizing (advanced) Unit <notesDecode>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_notes_out> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <notes>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <notes_out>     |          |
+    -----------------------------------------------------------------------
+Unit <notesDecode> synthesized (advanced).
+
+Synthesizing (advanced) Unit <soundMux>.
+The following registers are absorbed into counter <tone>: 1 register on signal <tone>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_7_o_X_7_o_wide_mux_3_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 18-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(tone,"000")>  |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_7_o_X_7_o_wide_mux_5_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 18-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_7_o_tone[1]_add_4_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_7_o_X_7_o_wide_mux_7_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 18-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_7_o_tone[1]_add_6_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_7_o_X_7_o_wide_mux_9_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 18-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_7_o_tone[1]_add_8_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_7_o_X_7_o_wide_mux_12_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 18-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_7_o_tone[1]_add_11_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_7_o_X_7_o_wide_mux_14_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 18-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_7_o_tone[1]_add_13_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_7_o_X_7_o_wide_mux_16_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 18-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_7_o_tone[1]_add_15_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_GND_7_o_X_7_o_wide_mux_18_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 18-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_7_o_tone[1]_add_17_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <soundMux> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 11
+ 256x5-bit single-port distributed Read Only RAM       : 1
+ 32x18-bit single-port distributed Read Only RAM       : 8
+ 32x8-bit single-port distributed Read Only RAM        : 1
+ 4x14-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 8
+ 32-bit adder                                          : 1
+ 5-bit adder                                           : 7
+# Counters                                             : 7
+ 2-bit up counter                                      : 2
+ 32-bit up counter                                     : 4
+ 6-bit up counter                                      : 1
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+# Comparators                                          : 2
+ 32-bit comparator greater                             : 2
+# Multiplexers                                         : 58
+ 1-bit 2-to-1 multiplexer                              : 33
+ 18-bit 2-to-1 multiplexer                             : 21
+ 3-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 2
+ 5-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <main> ...
+
+Optimizing unit <soundMux> ...
+
+Optimizing unit <Demo> ...
+
+Optimizing unit <DeBounce> ...
+
+Optimizing unit <FTC_HXILINX_main> ...
+WARNING:Xst:1293 - FF/Latch <XLXI_187/count_30> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_187/count_29> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_187/count_28> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_187/count_27> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_187/count_26> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_187/count_25> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_187/count_24> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_185/count_31> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_185/count_30> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_185/count_29> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_185/count_28> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_185/count_27> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_185/count_26> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_185/count_25> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_185/count_24> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_183/count_31> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_183/count_30> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_183/count_29> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_183/count_28> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_183/count_27> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_183/count_26> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_183/count_25> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_183/count_24> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_31> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_30> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_29> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_28> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_27> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_26> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_25> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_24> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_23> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_22> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_21> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_20> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_19> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_7/count_18> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_31> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_30> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_29> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_28> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_27> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_26> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_25> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_24> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_133/count_23> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <XLXI_187/count_31> has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 7.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 131
+ Flip-Flops                                            : 131
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : main.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 649
+#      AND2                        : 1
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 108
+#      LUT2                        : 16
+#      LUT3                        : 31
+#      LUT4                        : 115
+#      LUT5                        : 39
+#      LUT6                        : 79
+#      MUXCY                       : 130
+#      MUXF7                       : 4
+#      VCC                         : 1
+#      XORCY                       : 113
+# FlipFlops/Latches                : 136
+#      FD                          : 121
+#      FDC                         : 6
+#      FDE                         : 3
+#      FDRE                        : 1
+#      LD_1                        : 5
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 41
+#      IBUF                        : 12
+#      OBUF                        : 29
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             136  out of  11440     1%  
+ Number of Slice LUTs:                  399  out of   5720     6%  
+    Number used as Logic:               399  out of   5720     6%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    402
+   Number with an unused Flip Flop:     266  out of    402    66%  
+   Number with an unused LUT:             3  out of    402     0%  
+   Number of fully used LUT-FF pairs:   133  out of    402    33%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                          42
+ Number of bonded IOBs:                  42  out of    102    41%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)    | Load  |
+-----------------------------------+--------------------------+-------+
+XLXI_185/pulse_out                 | NONE(XLXI_7/tone_1)      | 2     |
+OSC                                | BUFGP                    | 126   |
+XLXI_187/pulse_out                 | NONE(XLXI_133/song_sel_1)| 2     |
+XLXI_143/Q                         | NONE(XLXI_133/tmp_0)     | 5     |
+XLXI_183/pulse_out                 | NONE(XLXI_143/Q)         | 1     |
+-----------------------------------+--------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.039ns (Maximum Frequency: 247.571MHz)
+   Minimum input arrival time before clock: 11.423ns
+   Maximum output required time after clock: 7.762ns
+   Maximum combinational path delay: 9.676ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_185/pulse_out'
+  Clock period: 2.682ns (frequency: 372.872MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.682ns (Levels of Logic = 1)
+  Source:            XLXI_7/tone_0 (FF)
+  Destination:       XLXI_7/tone_0 (FF)
+  Source Clock:      XLXI_185/pulse_out rising
+  Destination Clock: XLXI_185/pulse_out rising
+
+  Data Path: XLXI_7/tone_0 to XLXI_7/tone_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              36   0.447   1.348  XLXI_7/tone_0 (XLXI_7/tone_0)
+     INV:I->O              1   0.206   0.579  XLXI_7/Mcount_tone_xor<0>11_INV_0 (XLXI_7/Result<0>)
+     FD:D                      0.102          XLXI_7/tone_0
+    ----------------------------------------
+    Total                      2.682ns (0.755ns logic, 1.927ns route)
+                                       (28.2% logic, 71.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'OSC'
+  Clock period: 4.039ns (frequency: 247.571MHz)
+  Total number of paths / destination ports: 5105 / 127
+-------------------------------------------------------------------------
+Delay:               4.039ns (Levels of Logic = 3)
+  Source:            XLXI_187/count_16 (FF)
+  Destination:       XLXI_187/count_23 (FF)
+  Source Clock:      OSC rising
+  Destination Clock: OSC rising
+
+  Data Path: XLXI_187/count_16 to XLXI_187/count_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   1.015  XLXI_187/count_16 (XLXI_187/count_16)
+     LUT6:I0->O            4   0.203   0.931  XLXI_187/GND_24_o_count[31]_equal_1_o<31>4 (XLXI_187/GND_24_o_count[31]_equal_1_o<31>3)
+     LUT5:I1->O           13   0.203   0.933  XLXI_187/_n00241 (XLXI_187/_n0024)
+     LUT4:I3->O            1   0.205   0.000  XLXI_187/count_23_rstpot (XLXI_187/count_23_rstpot)
+     FD:D                      0.102          XLXI_187/count_23
+    ----------------------------------------
+    Total                      4.039ns (1.160ns logic, 2.879ns route)
+                                       (28.7% logic, 71.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_187/pulse_out'
+  Clock period: 2.442ns (frequency: 409.458MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.442ns (Levels of Logic = 1)
+  Source:            XLXI_133/song_sel_0 (FF)
+  Destination:       XLXI_133/song_sel_0 (FF)
+  Source Clock:      XLXI_187/pulse_out rising
+  Destination Clock: XLXI_187/pulse_out rising
+
+  Data Path: XLXI_133/song_sel_0 to XLXI_133/song_sel_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             19   0.447   1.071  XLXI_133/song_sel_0 (XLXI_133/song_sel_0)
+     INV:I->O              2   0.206   0.616  XLXI_81/e01_INV_0 (XLXI_133/Result<0>)
+     FDE:D                     0.102          XLXI_133/song_sel_0
+    ----------------------------------------
+    Total                      2.442ns (0.755ns logic, 1.687ns route)
+                                       (30.9% logic, 69.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_183/pulse_out'
+  Clock period: 2.973ns (frequency: 336.339MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.973ns (Levels of Logic = 1)
+  Source:            XLXI_143/Q (FF)
+  Destination:       XLXI_143/Q (FF)
+  Source Clock:      XLXI_183/pulse_out rising
+  Destination Clock: XLXI_183/pulse_out rising
+
+  Data Path: XLXI_143/Q to XLXI_143/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             64   0.447   1.639  Q (Q)
+     INV:I->O              1   0.206   0.579  Q_INV_36_o1_INV_0 (Q_INV_36_o)
+     FDE:D                     0.102          Q
+    ----------------------------------------
+    Total                      2.973ns (0.755ns logic, 2.218ns route)
+                                       (25.4% logic, 74.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'OSC'
+  Total number of paths / destination ports: 80598 / 26
+-------------------------------------------------------------------------
+Offset:              11.423ns (Levels of Logic = 15)
+  Source:            B<3> (PAD)
+  Destination:       XLXI_7/tmp (FF)
+  Destination Clock: OSC rising
+
+  Data Path: B<3> to XLXI_7/tmp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.943  B_3_IBUF (B_3_IBUF)
+     LUT3:I0->O            1   0.205   0.808  XLXI_134/Mram_GND_17_o_GND_17_o_mux_15_OUT611_SW0 (N21)
+     LUT6:I3->O            6   0.205   0.849  XLXI_134/Mram_GND_17_o_GND_17_o_mux_15_OUT611 (XLXI_134/GND_17_o_GND_17_o_mux_15_OUT<2>)
+     LUT3:I1->O           27   0.203   1.585  XLXI_134/Mmux_Notes31 (XLXN_436<2>)
+     LUT6:I0->O           11   0.203   1.247  XLXI_179/Mram_notes_out51 (XLXI_7/Mmux_now_freq<17:0>181)
+     LUT6:I0->O            1   0.203   0.944  XLXI_7/Mmux_now_freq<17:0>91 (XLXI_7/Mmux_now_freq<17:0>9)
+     LUT6:I0->O            2   0.203   0.721  XLXI_7/Mmux_now_freq<17:0>95 (XLXI_7/now_freq<11>)
+     LUT4:I2->O            1   0.203   0.000  XLXI_7/Mcompar_n0023_lut<5> (XLXI_7/Mcompar_n0023_lut<5>)
+     MUXCY:S->O            1   0.172   0.000  XLXI_7/Mcompar_n0023_cy<5> (XLXI_7/Mcompar_n0023_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_7/Mcompar_n0023_cy<6> (XLXI_7/Mcompar_n0023_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_7/Mcompar_n0023_cy<7> (XLXI_7/Mcompar_n0023_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_7/Mcompar_n0023_cy<8> (XLXI_7/Mcompar_n0023_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_7/Mcompar_n0023_cy<9> (XLXI_7/Mcompar_n0023_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  XLXI_7/Mcompar_n0023_cy<10> (XLXI_7/Mcompar_n0023_cy<10>)
+     MUXCY:CI->O          19   0.019   1.071  XLXI_7/Mcompar_n0023_cy<11> (XLXI_7/Mcompar_n0023_cy<11>)
+     FDRE:CE                   0.322          XLXI_7/tmp
+    ----------------------------------------
+    Total                     11.423ns (3.255ns logic, 8.168ns route)
+                                       (28.5% logic, 71.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_183/pulse_out'
+  Total number of paths / destination ports: 39 / 9
+-------------------------------------------------------------------------
+Offset:              7.762ns (Levels of Logic = 4)
+  Source:            XLXI_143/Q (FF)
+  Destination:       n_o<5> (PAD)
+  Source Clock:      XLXI_183/pulse_out rising
+
+  Data Path: XLXI_143/Q to n_o<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             64   0.447   1.868  Q (Q)
+     end scope: 'XLXI_143:Q'
+     LUT3:I0->O           27   0.205   1.585  XLXI_134/Mmux_Notes31 (XLXN_436<2>)
+     LUT6:I0->O           11   0.203   0.882  XLXI_179/Mram_notes_out51 (XLXI_7/Mmux_now_freq<17:0>181)
+     OBUF:I->O                 2.571          n_o_5_OBUF (n_o<5>)
+    ----------------------------------------
+    Total                      7.762ns (3.426ns logic, 4.336ns route)
+                                       (44.1% logic, 55.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_143/Q'
+  Total number of paths / destination ports: 38 / 8
+-------------------------------------------------------------------------
+Offset:              6.689ns (Levels of Logic = 3)
+  Source:            XLXI_133/tmp_2 (LATCH)
+  Destination:       n_o<5> (PAD)
+  Source Clock:      XLXI_143/Q rising
+
+  Data Path: XLXI_133/tmp_2 to n_o<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD_1:G->Q             6   0.498   0.745  XLXI_133/tmp_2 (XLXI_133/tmp_2)
+     LUT3:I2->O           27   0.205   1.585  XLXI_134/Mmux_Notes31 (XLXN_436<2>)
+     LUT6:I0->O           11   0.203   0.882  XLXI_179/Mram_notes_out51 (XLXI_7/Mmux_now_freq<17:0>181)
+     OBUF:I->O                 2.571          n_o_5_OBUF (n_o<5>)
+    ----------------------------------------
+    Total                      6.689ns (3.477ns logic, 3.212ns route)
+                                       (52.0% logic, 48.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_187/pulse_out'
+  Total number of paths / destination ports: 10 / 6
+-------------------------------------------------------------------------
+Offset:              5.055ns (Levels of Logic = 2)
+  Source:            XLXI_133/song_sel_1 (FF)
+  Destination:       a (PAD)
+  Source Clock:      XLXI_187/pulse_out rising
+
+  Data Path: XLXI_133/song_sel_1 to a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             21   0.447   1.218  XLXI_133/song_sel_1 (XLXI_133/song_sel_1)
+     LUT2:I0->O            2   0.203   0.616  d1 (d_OBUF)
+     OBUF:I->O                 2.571          a_OBUF (a)
+    ----------------------------------------
+    Total                      5.055ns (3.221ns logic, 1.834ns route)
+                                       (63.7% logic, 36.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_185/pulse_out'
+  Total number of paths / destination ports: 7 / 4
+-------------------------------------------------------------------------
+Offset:              5.338ns (Levels of Logic = 2)
+  Source:            XLXI_7/tone_1 (FF)
+  Destination:       a1 (PAD)
+  Source Clock:      XLXI_185/pulse_out rising
+
+  Data Path: XLXI_7/tone_1 to a1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              42   0.447   1.538  XLXI_7/tone_1 (XLXI_7/tone_1)
+     LUT2:I0->O            1   0.203   0.579  XLXI_175/a01 (a1_OBUF)
+     OBUF:I->O                 2.571          a1_OBUF (a1)
+    ----------------------------------------
+    Total                      5.338ns (3.221ns logic, 2.117ns route)
+                                       (60.3% logic, 39.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'OSC'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.815ns (Levels of Logic = 2)
+  Source:            XLXI_7/tmp (FF)
+  Destination:       Freq_out (PAD)
+  Source Clock:      OSC rising
+
+  Data Path: XLXI_7/tmp to Freq_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.447   0.995  XLXI_7/tmp (XLXI_7/tmp)
+     AND2:I1->O            1   0.223   0.579  XLXI_74 (Freq_out_OBUF)
+     OBUF:I->O                 2.571          Freq_out_OBUF (Freq_out)
+    ----------------------------------------
+    Total                      4.815ns (3.241ns logic, 1.574ns route)
+                                       (67.3% logic, 32.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 305 / 9
+-------------------------------------------------------------------------
+Delay:               9.676ns (Levels of Logic = 6)
+  Source:            B<3> (PAD)
+  Destination:       n_o<5> (PAD)
+
+  Data Path: B<3> to n_o<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.943  B_3_IBUF (B_3_IBUF)
+     LUT3:I0->O            1   0.205   0.808  XLXI_134/Mram_GND_17_o_GND_17_o_mux_15_OUT611_SW0 (N21)
+     LUT6:I3->O            6   0.205   0.849  XLXI_134/Mram_GND_17_o_GND_17_o_mux_15_OUT611 (XLXI_134/GND_17_o_GND_17_o_mux_15_OUT<2>)
+     LUT3:I1->O           27   0.203   1.585  XLXI_134/Mmux_Notes31 (XLXN_436<2>)
+     LUT6:I0->O           11   0.203   0.882  XLXI_179/Mram_notes_out51 (XLXI_7/Mmux_now_freq<17:0>181)
+     OBUF:I->O                 2.571          n_o_5_OBUF (n_o<5>)
+    ----------------------------------------
+    Total                      9.676ns (4.609ns logic, 5.067ns route)
+                                       (47.6% logic, 52.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock OSC
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+OSC               |    4.039|         |         |         |
+XLXI_143/Q        |    8.436|         |         |         |
+XLXI_183/pulse_out|    9.509|         |         |         |
+XLXI_185/pulse_out|    6.866|         |         |         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_143/Q
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+OSC               |    3.979|         |         |         |
+XLXI_187/pulse_out|    3.942|         |         |         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_183/pulse_out
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+XLXI_183/pulse_out|    2.973|         |         |         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_185/pulse_out
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+XLXI_185/pulse_out|    2.682|         |         |         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_187/pulse_out
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+XLXI_183/pulse_out|    2.408|         |         |         |
+XLXI_187/pulse_out|    2.442|         |         |         |
+------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.46 secs
+ 
+--> 
+
+Total memory usage is 4502492 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   70 (   0 filtered)
+Number of infos    :   12 (   0 filtered)
+

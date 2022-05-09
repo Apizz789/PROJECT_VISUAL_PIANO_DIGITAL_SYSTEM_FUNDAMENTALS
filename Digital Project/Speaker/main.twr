@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf
+
+Design file:              main.ncd
+Physical constraint file: main.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock OSC
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+B<0>        |    9.407(R)|      SLOW  |   -0.924(R)|      FAST  |OSC_BUFGP         |   0.000|
+B<1>        |    8.929(R)|      SLOW  |   -1.053(R)|      FAST  |OSC_BUFGP         |   0.000|
+B<2>        |    9.433(R)|      SLOW  |   -1.395(R)|      FAST  |OSC_BUFGP         |   0.000|
+B<3>        |    9.436(R)|      SLOW  |   -1.317(R)|      FAST  |OSC_BUFGP         |   0.000|
+B<4>        |    9.017(R)|      SLOW  |   -1.183(R)|      FAST  |OSC_BUFGP         |   0.000|
+B<5>        |    8.499(R)|      SLOW  |   -0.813(R)|      FAST  |OSC_BUFGP         |   0.000|
+B<6>        |    8.566(R)|      SLOW  |   -0.818(R)|      FAST  |OSC_BUFGP         |   0.000|
+B<7>        |    9.053(R)|      SLOW  |   -1.143(R)|      FAST  |OSC_BUFGP         |   0.000|
+Play_demo   |    2.886(R)|      SLOW  |   -0.487(R)|      SLOW  |OSC_BUFGP         |   0.000|
+Selection   |    1.755(R)|      SLOW  |   -0.338(R)|      SLOW  |OSC_BUFGP         |   0.000|
+Tuning      |    1.753(R)|      SLOW  |   -0.437(R)|      SLOW  |OSC_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock OSC to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Freq_out    |         8.257(R)|      SLOW  |         4.347(R)|      FAST  |OSC_BUFGP         |   0.000|
+LED1        |         8.290(R)|      SLOW  |         4.339(R)|      FAST  |OSC_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock OSC
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OSC            |    4.277|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+B<0>           |n_o<0>         |   12.076|
+B<0>           |n_o<1>         |   11.724|
+B<0>           |n_o<2>         |   12.084|
+B<0>           |n_o<3>         |   12.041|
+B<0>           |n_o<4>         |   12.172|
+B<0>           |n_o<5>         |   11.836|
+B<0>           |n_o<6>         |   11.821|
+B<0>           |n_o<7>         |   11.843|
+B<1>           |n_o<0>         |   11.722|
+B<1>           |n_o<1>         |   11.647|
+B<1>           |n_o<2>         |   11.730|
+B<1>           |n_o<3>         |   11.687|
+B<1>           |n_o<4>         |   12.095|
+B<1>           |n_o<5>         |   11.222|
+B<1>           |n_o<6>         |   11.467|
+B<1>           |n_o<7>         |   11.766|
+B<2>           |n_o<0>         |   12.226|
+B<2>           |n_o<1>         |   12.151|
+B<2>           |n_o<2>         |   12.234|
+B<2>           |n_o<3>         |   12.191|
+B<2>           |n_o<4>         |   12.599|
+B<2>           |n_o<5>         |   11.619|
+B<2>           |n_o<6>         |   11.971|
+B<2>           |n_o<7>         |   12.270|
+B<3>           |n_o<0>         |   12.047|
+B<3>           |n_o<1>         |   11.689|
+B<3>           |n_o<2>         |   12.151|
+B<3>           |n_o<3>         |   12.012|
+B<3>           |n_o<4>         |   11.999|
+B<3>           |n_o<5>         |   11.807|
+B<3>           |n_o<6>         |   11.888|
+B<3>           |n_o<7>         |   11.670|
+B<4>           |n_o<0>         |   11.814|
+B<4>           |n_o<1>         |   11.909|
+B<4>           |n_o<2>         |   11.822|
+B<4>           |n_o<3>         |   11.779|
+B<4>           |n_o<4>         |   12.187|
+B<4>           |n_o<5>         |   11.377|
+B<4>           |n_o<6>         |   11.559|
+B<4>           |n_o<7>         |   11.858|
+B<5>           |n_o<0>         |   11.382|
+B<5>           |n_o<1>         |   11.098|
+B<5>           |n_o<2>         |   11.390|
+B<5>           |n_o<3>         |   11.347|
+B<5>           |n_o<4>         |   11.755|
+B<5>           |n_o<5>         |   11.008|
+B<5>           |n_o<6>         |   11.127|
+B<5>           |n_o<7>         |   11.426|
+B<6>           |n_o<0>         |   11.429|
+B<6>           |n_o<1>         |   11.575|
+B<6>           |n_o<2>         |   11.437|
+B<6>           |n_o<3>         |   11.394|
+B<6>           |n_o<4>         |   11.802|
+B<6>           |n_o<5>         |   11.043|
+B<6>           |n_o<6>         |   11.174|
+B<6>           |n_o<7>         |   11.473|
+B<7>           |n_o<0>         |   11.378|
+B<7>           |n_o<1>         |   11.314|
+B<7>           |n_o<2>         |   11.768|
+B<7>           |n_o<3>         |   11.343|
+B<7>           |n_o<4>         |   11.616|
+B<7>           |n_o<5>         |   11.034|
+B<7>           |n_o<6>         |   11.505|
+B<7>           |n_o<7>         |   11.287|
+Mute           |Freq_out       |    7.531|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Dec 18 06:29:13 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

@@ -1,0 +1,6 @@
+vhdtdtfi -lib work notesDecode.vhd -prj Speaker -o notesDecode.spl -module notesDecode -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 notesDecode.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/notesDecode.sym 
+vhdtdtfi -lib work notesDecode.vhd -prj Speaker -o notesDecode.spl -module notesDecode -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 notesDecode.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/notesDecode.sym 
+vhdtdtfi -lib work notesDecode.vhd -prj Speaker -o notesDecode.spl -module notesDecode -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 notesDecode.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/notesDecode.sym 

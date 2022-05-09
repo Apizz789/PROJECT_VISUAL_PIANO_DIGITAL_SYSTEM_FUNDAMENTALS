@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+soundMux instance_name (
+    .C(C), 
+    .CLR(CLR), 
+    .CE(CE), 
+    .Fingers(Fingers), 
+    .Freq_out(Freq_out)
+    );
+
+

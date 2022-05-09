@@ -1,0 +1,5 @@
+[Inputs]
+=notes[4:0]=
+[Outputs]
+=notes_out[7:0]=
+[BiDir]

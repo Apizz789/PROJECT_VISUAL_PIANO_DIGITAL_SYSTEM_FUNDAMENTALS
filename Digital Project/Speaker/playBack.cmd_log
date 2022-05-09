@@ -1,0 +1,159 @@
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -prj Speaker -o C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.tfi -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work playBack.vhd 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 
+vhdtdtfi -lib work playBack.vhd -prj Speaker -o playBack.spl -module playBack -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 playBack.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/playBack.sym 

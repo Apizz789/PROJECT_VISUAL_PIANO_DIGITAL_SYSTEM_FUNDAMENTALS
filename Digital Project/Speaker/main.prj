@@ -1,0 +1,7 @@
+vhdl work "soundMux.vhd"
+vhdl work "notesDecode.vhd"
+vhdl work "modeMux.vhd"
+vhdl work "Demo.vhd"
+vhdl work "debouce.vhd"
+vhdl work "bcd2_7seg.vhd"
+verilog work "main.vf"

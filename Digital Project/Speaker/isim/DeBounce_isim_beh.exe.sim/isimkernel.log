@@ -1,0 +1,28 @@
+Command line:
+   DeBounce_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55181
+
+Fri Dec 18 06:21:33 2020
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5154.47 Meg
+
+ Total Signals          : 6
+ Total Nets             : 6
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 1
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 491
+
+ Total Simulation Time: 12.8281 sec
+
+ Current Memory Usage: 5469.04 Meg
+
+Fri Dec 18 06:22:14 2020
+

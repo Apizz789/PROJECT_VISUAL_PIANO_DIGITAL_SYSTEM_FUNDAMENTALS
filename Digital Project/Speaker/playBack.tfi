@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+playBack instance_name (
+    .Finger(Finger), 
+    .C(C), 
+    .CLR(CLR), 
+    .CE(CE), 
+    .Reset(Reset), 
+    .Rec(Rec), 
+    .Play(Play), 
+    .Note_Out(Note_Out), 
+    .Rec_Led(Rec_Led), 
+    .Rec_End(Rec_End), 
+    .Play_Led(Play_Led), 
+    .Play_End(Play_End)
+    );
+
+

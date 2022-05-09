@@ -1,0 +1,6 @@
+[Inputs]
+i_clk
+=i_addr[4:0]=
+[Outputs]
+=o_data[7:0]=
+[BiDir]

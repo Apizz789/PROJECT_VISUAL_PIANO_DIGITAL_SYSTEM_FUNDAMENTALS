@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\USER\Desktop\Digital\Lab\Speaker\main.ncd
+OUTFILE=C:\Users\USER\Desktop\Digital\Lab\Speaker\main.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\USER\Desktop\Digital\Lab\Speaker
+LICENSE=WebPack
+USER_INFO=__0_0_0

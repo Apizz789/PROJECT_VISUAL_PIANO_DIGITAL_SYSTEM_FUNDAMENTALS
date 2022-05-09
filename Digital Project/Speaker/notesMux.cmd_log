@@ -1,0 +1,10 @@
+vhdtdtfi -lib work notesMux.vhd -prj Speaker -o notesMux.spl -module notesMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 notesMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/notesMux.sym 
+vhdtdtfi -lib work notesMux.vhd -prj Speaker -o notesMux.spl -module notesMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 notesMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/notesMux.sym 
+vhdtdtfi -lib work notesMux.vhd -prj Speaker -o notesMux.spl -module notesMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 notesMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/notesMux.sym 
+vhdtdtfi -lib work notesMux.vhd -prj Speaker -o notesMux.spl -module notesMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 notesMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/notesMux.sym 
+vhdtdtfi -lib work notesMux.vhd -prj Speaker -o notesMux.spl -module notesMux -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 notesMux.spl C:/Users/USER/Desktop/Digital/Lab/Speaker/notesMux.sym 

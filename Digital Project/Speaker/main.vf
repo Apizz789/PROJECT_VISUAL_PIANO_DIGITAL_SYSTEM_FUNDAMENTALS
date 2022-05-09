@@ -1,0 +1,201 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : main.vf
+// /___/   /\     Timestamp : 12/18/2020 06:28:43
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/USER/Desktop/Digital/Lab/Speaker/main.vf -w C:/Users/USER/Desktop/Digital/Lab/Speaker/main.sch
+//Design Name: main
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FTC_HXILINX_main(Q, C, CLR, T);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              T;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+  
+   
+ 
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else if(T)
+          Q <= !Q;
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module main(B, 
+            Mute, 
+            OSC, 
+            Play_demo, 
+            Selection, 
+            Tuning, 
+            a, 
+            a1, 
+            b, 
+            b1, 
+            c, 
+            common0, 
+            common1, 
+            common2, 
+            common3, 
+            c1, 
+            d, 
+            d1, 
+            e, 
+            e1, 
+            f, 
+            Freq_out, 
+            f1, 
+            g, 
+            g1, 
+            LED1, 
+            LED7, 
+            n_o);
+
+    input [7:0] B;
+    input Mute;
+    input OSC;
+    input Play_demo;
+    input Selection;
+    input Tuning;
+   output a;
+   output a1;
+   output b;
+   output b1;
+   output c;
+   output common0;
+   output common1;
+   output common2;
+   output common3;
+   output c1;
+   output d;
+   output d1;
+   output e;
+   output e1;
+   output f;
+   output Freq_out;
+   output f1;
+   output g;
+   output g1;
+   output LED1;
+   output LED7;
+   output [7:0] n_o;
+   
+   wire [2:0] t_o;
+   wire XLXN_10;
+   wire XLXN_289;
+   wire [4:0] XLXN_427;
+   wire XLXN_431;
+   wire XLXN_433;
+   wire [4:0] XLXN_436;
+   wire XLXN_438;
+   wire [1:0] XLXN_439;
+   wire XLXN_543;
+   wire XLXN_546;
+   wire XLXN_610;
+   wire XLXN_612;
+   wire XLXN_619;
+   wire XLXN_623;
+   wire XLXN_630;
+   wire XLXN_631;
+   wire LED1_DUMMY;
+   
+   assign LED1 = LED1_DUMMY;
+   VCC  XLXI_2 (.P(XLXN_612));
+   GND  XLXI_5 (.G(XLXN_10));
+   soundMux  XLXI_7 (.C(OSC), 
+                    .CE(XLXN_612), 
+                    .CLR(XLXN_10), 
+                    .Fingers(XLXN_436[3:0]), 
+                    .quadrant(XLXN_436[4]), 
+                    .tuning(XLXN_619), 
+                    .Freq_out(LED1_DUMMY), 
+                    .tone_out(t_o[2:0]));
+   AND2  XLXI_74 (.I0(Mute), 
+                 .I1(LED1_DUMMY), 
+                 .O(Freq_out));
+   bcd9seg  XLXI_81 (.A(XLXN_289), 
+                    .B(XLXN_543), 
+                    .C(XLXN_439[1]), 
+                    .D(XLXN_439[0]), 
+                    .a0(a), 
+                    .b0(b), 
+                    .c0(c), 
+                    .d0(d), 
+                    .e0(e), 
+                    .f0(f), 
+                    .g0(g));
+   GND  XLXI_83 (.G(XLXN_289));
+   Demo  XLXI_133 (.C(OSC), 
+                  .play(XLXN_438), 
+                  .selection(XLXN_623), 
+                  .notes_out(XLXN_427[4:0]), 
+                  .song_index(XLXN_439[1:0]));
+   modeMux  XLXI_134 (.A(XLXN_427[4:0]), 
+                     .B(B[7:0]), 
+                     .Busy(XLXN_438), 
+                     .Notes(XLXN_436[4:0]));
+   (* HU_SET = "XLXI_143_0" *) 
+   FTC_HXILINX_main  XLXI_143 (.C(XLXN_431), 
+                              .CLR(), 
+                              .T(XLXN_433), 
+                              .Q(XLXN_438));
+   VCC  XLXI_145 (.P(XLXN_433));
+   GND  XLXI_164 (.G(XLXN_543));
+   VCC  XLXI_165 (.P(common3));
+   VCC  XLXI_166 (.P(common2));
+   VCC  XLXI_169 (.P(common1));
+   GND  XLXI_171 (.G(common0));
+   INV  XLXI_172 (.I(XLXN_438), 
+                 .O(LED7));
+   GND  XLXI_173 (.G(XLXN_546));
+   bcd9seg  XLXI_175 (.A(XLXN_546), 
+                     .B(t_o[2]), 
+                     .C(t_o[1]), 
+                     .D(t_o[0]), 
+                     .a0(a1), 
+                     .b0(b1), 
+                     .c0(c1), 
+                     .d0(d1), 
+                     .e0(e1), 
+                     .f0(f1), 
+                     .g0(g1));
+   notesDecode  XLXI_179 (.notes(XLXN_436[4:0]), 
+                         .notes_out(n_o[7:0]));
+   DeBounce  XLXI_183 (.button_in(Play_demo), 
+                      .Clock(OSC), 
+                      .Reset(XLXN_610), 
+                      .pulse_out(XLXN_431));
+   GND  XLXI_184 (.G(XLXN_610));
+   DeBounce  XLXI_185 (.button_in(Tuning), 
+                      .Clock(OSC), 
+                      .Reset(XLXN_630), 
+                      .pulse_out(XLXN_619));
+   GND  XLXI_186 (.G(XLXN_630));
+   DeBounce  XLXI_187 (.button_in(Selection), 
+                      .Clock(OSC), 
+                      .Reset(XLXN_631), 
+                      .pulse_out(XLXN_623));
+   GND  XLXI_188 (.G(XLXN_631));
+endmodule

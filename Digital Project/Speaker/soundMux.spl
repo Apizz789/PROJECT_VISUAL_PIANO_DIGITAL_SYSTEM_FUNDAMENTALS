@@ -1,0 +1,11 @@
+[Inputs]
+C
+CLR
+CE
+tuning
+quadrant
+=Fingers[3:0]=
+[Outputs]
+Freq_out
+=tone_out[2:0]=
+[BiDir]
